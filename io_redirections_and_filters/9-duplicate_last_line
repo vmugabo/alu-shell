@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{last=$0} END{print last}' iacta >> iacta
+cat ./iacta | tail --lines=1 >> iacta
