@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#killing loop
+
+kill "$(ps -x|pgrep -f infinity)"
